@@ -876,7 +876,6 @@ img {
 }
 
 .check-text {
-  display: flex;
   align-items: center;
   font-weight: 400;
   font-size: 12px;
@@ -906,7 +905,6 @@ img {
 }
 
 .modal-privacy {
-  margin-top: 16px;
   margin-bottom: 24px;
 }
 
