@@ -690,7 +690,7 @@ img {
   border: none;
   background-color: var(--primary-brend);
   border-radius: 4px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -700,13 +700,13 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-send-icon {
   fill: var(--white-background);
+  margin-left: 16px;
 }
 
 .sub-btn:hover,
@@ -724,7 +724,6 @@ img {
   top: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 72px 24px 24px 24px;
 }
 
 .modal {
@@ -739,6 +738,7 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  padding: 72px 24px 24px 24px;
 }
 
 .backdrop.is-hidden .modal {
@@ -793,23 +793,14 @@ img {
 .modal-title {
   font-weight: 500;
   text-align: center;
-  margin-top: 72px;
   margin-bottom: 16px;
   color: var(--dark);
-}
-
-.modal-form {
-  margin-left: 24px;
-  margin-right: 24px;
 }
 
 .modal-field {
   margin-bottom: 8px;
 }
 
-.modal-field:nth-last-child(-n + 3) {
-  margin-bottom: 0;
-}
 
 .modal-input {
   display: block;
